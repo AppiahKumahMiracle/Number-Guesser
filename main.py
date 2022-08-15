@@ -38,7 +38,7 @@ for i in range(4):
         print(GREEN, 'Hurray!!!...You Guess it Correct')
         break
     elif user_guess > generator:
-        print(YELLOW, 'Your Guess Is Too High, Try Again')
+        print(RED, 'Your Guess Is Too High, Try Again')
 
     elif user_guess < generator:
         print(YELLOW, 'Your Guess Is Too Low, Try Again')
